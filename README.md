@@ -80,7 +80,7 @@ Enfin, afin d'autoriser les connexions distantes sur le PC, il faut ouvrir le po
 Améliorations :
 
 - Une amélioration notable serait de créer des VLans internes aux machines virtuelles qui hébergent les github actions pour les séparer du réseau local afin d'augmenter la sécurité du réseau.
-La livebox ne proposant pas cette fonctionnalité, il faudrait probablement installer un OS routeur tel que [OPNsens](https://opnsense.org/).
+La livebox ne proposant pas cette fonctionnalité, il faudrait probablement installer un OS routeur tel que [OPNsense](https://opnsense.org/).
 
 - La VM hébergeant le VPN et le DDNS est configurée sur le même subnet que la majorité des autres subnets fournis sur les box des fournisseurs d'accès à internet (192.168.1.0/24). Or, cela pose un problème de conflit quand je me connecte depuis un réseau avec le même subnet. Il faudrait donc changer le subnet du réseau sur lequel le PC est hébergé vers un subnet moins commun pour éviter ces problèmes.
 
